@@ -4,17 +4,17 @@ const toDoTask = [
   {
     description: 'wash the dishes',
     completed: true,
-    index: 1
+    index: 1,
   },
   {
     description: 'Complete to do list project',
     completed: true,
-    index: 2
+    index: 2,
   },
   {
     description: 'Complete ES6 & Webpack module successfully',
     completed: true,
-    index: 3
+    index: 3,
   }
 ];
 
@@ -28,7 +28,7 @@ container.appendChild(header);
 
 const form = document.createElement('form');
 form.classList.add('form');
-form.innerHTML = '<input type="text" class="task-input" placeholder="Add to your list...">'
+form.innerHTML = '<input type="text" class="task-input" placeholder="Add to your list...">';
 container.appendChild(form);
 
 const toDoList = () => {
@@ -39,9 +39,9 @@ const toDoList = () => {
     div.innerHTML = `
     <span class="material-symbols-outlined">check_box_outline_blank </span> <p>${task.description} </p> <span class="material-symbols-outlined move-end">more_vert</span>
 `;
-  container.appendChild(div);
+    container.appendChild(div);
   });
-}
+};
 toDoList();
 
 const remove = document.createElement('div');
