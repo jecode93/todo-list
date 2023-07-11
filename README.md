@@ -22,9 +22,9 @@
 
 
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [To Do Task] <a name="about-project"></a>
 
-**[Awesome Books]** is an application that shows a todo list task. 
+**[To Do Task]** is an application that shows a todo list task. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,6 +63,13 @@ Example commands:
   cd todo-list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://list-structure--cool-narwhal-ee0eab.netlify.app/);
+
 
 ## 👥 Authors <a name="authors"></a>
 
