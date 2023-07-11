@@ -42,6 +42,7 @@ const toDoList = () => {
   container.appendChild(div);
   });
 }
+toDoList();
 
 const remove = document.createElement('div');
 remove.classList.add('remove');
