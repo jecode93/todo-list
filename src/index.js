@@ -34,7 +34,7 @@ container.appendChild(form);
 const toDoList = () => {
   toDoTask.forEach((task) => {
     const div = document.createElement('div');
-    div.classList.add('task');
+    div.classList.add('tasks');
     div.setAttribute('id', task.index);
     div.innerHTML = `
     <span class="material-symbols-outlined">check_box_outline_blank </span> <p>${task.description} </p> <span class="material-symbols-outlined move-end">more_vert</span>

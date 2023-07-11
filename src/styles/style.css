@@ -30,12 +30,12 @@ main {
   border-bottom: 1px solid #ccc;
 }
 
-.header h1 {
+.todo-header h1 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.task {
+.tasks {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -44,16 +44,10 @@ main {
   border-bottom: 1px solid #ccc;
 }
 
-.task p {
+.tasks p {
   font-size: 1rem;
   font-weight: 500;
   margin-left: 1rem;
-}
-
-.header img,
-.task img {
-  width: 20px;
-  height: 20px;
 }
 
 form {
