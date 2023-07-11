@@ -24,7 +24,7 @@
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-**[Awesome Books]** is an application that shows a books list. 
+**[Awesome Books]** is an application that shows a todo list task. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,6 +32,7 @@
  
 - **[HTML5]**
 - **[Javascript]**
+- **[Webpack]**
 
 ### Key Features <a name="key-features"></a>
 
@@ -57,9 +58,9 @@ Clone this repository to your desired folder:
 
 Example commands:
 
-  git clone https://github.com/jecode93/awesome-book.git
+  git clone https://github.com/jecode93/todo-list.git
  
-  cd awesome-book
+  cd todo-list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +85,7 @@ Example commands:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/jecode93/awesome-book-es6/issues].
+Feel free to check the [https://github.com/jecode93/todo-list/issues].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
