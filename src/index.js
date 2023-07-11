@@ -15,7 +15,7 @@ const toDoTask = [
     description: 'Complete ES6 & Webpack module successfully',
     completed: true,
     index: 3,
-  }
+  },
 ];
 
 const container = document.querySelector('.container');
