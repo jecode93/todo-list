@@ -1,7 +1,8 @@
-import getData from "..";
+/* eslint-disable import/no-cycle */
+import getData from '..';
 
-const updateCompletedTask = (data, descript,checking, i) => {
-    if (data[i].completed === false) {
+const updateCompletedTask = (data, descript, checking, i) => {
+  if (data[i].completed === false) {
     checking.removeAttribute('checked');
   } else {
     checking.setAttribute('checked', 'checked');
@@ -15,6 +16,6 @@ const updateCompletedTask = (data, descript,checking, i) => {
     localStorage.setItem('datas', JSON.stringify(data));
     getData();
   });
-}
+};
 
 export default updateCompletedTask;

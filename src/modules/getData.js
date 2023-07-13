@@ -1,3 +1,4 @@
+let tasks = [];
 export const main = document.querySelector('.container');
 
 const getData = () => {
@@ -7,6 +8,5 @@ const getData = () => {
   document.body.appendChild(component());
   /* eslint-enable */
 };
-
 
 export default getData;

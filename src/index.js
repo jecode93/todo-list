@@ -1,7 +1,7 @@
+/* eslint-disable import/no-cycle */
 import add from './modules/addRemove.js';
 import { removeAllTask, removeTask } from './modules/remove.js';
 import updateCompletedTask from './modules/updateCompleted.js';
-
 import './styles/style.css';
 
 let tasks = [];
