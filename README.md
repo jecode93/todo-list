@@ -6,7 +6,7 @@
 
 # 📗 Table of Contents
 
-- [� Table of Contents](#-table-of-contents)
+- [📗 Table of Contents](#-table-of-contents)
 - [📖 \[To Do Task\] ](#-to-do-task-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -70,7 +70,7 @@ Example commands:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://cool-narwhal-ee0eab.netlify.app/);
+- [Live Demo Link](https://cool-narwhal-ee0eab.netlify.app/)
 
 
 ## 👥 Authors <a name="authors"></a>

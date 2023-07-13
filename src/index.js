@@ -1,5 +1,6 @@
 import add from './modules/addRemove.js';
 import { removeAllTask, removeTask } from './modules/remove.js';
+import updateCompletedTask from './modules/updateCompleted.js';
 
 import './styles/style.css';
 
@@ -20,20 +21,7 @@ const showTask = (i) => {
   const checkbox = document.createElement('input');
   const desc = document.createElement('input');
   checkbox.setAttribute('type', 'checkbox');
-  if (tasks[i].completed === false) {
-    checkbox.removeAttribute('checked');
-  } else {
-    checkbox.setAttribute('checked', 'checked');
-    desc.style.textDecoration = 'line-through';
-  }
-  checkbox.addEventListener('change', () => {
-    if (checkbox.checked) {
-      desc.classList.add('extra');
-    }
-    tasks[i].completed = checkbox.checked;
-    localStorage.setItem('datas', JSON.stringify(tasks));
-    getData();
-  });
+  updateCompletedTask(tasks, desc, checkbox, i)
   desc.setAttribute('type', 'text');
   desc.setAttribute('id', `taskField-${i}`);
   desc.classList.add('taskField');
