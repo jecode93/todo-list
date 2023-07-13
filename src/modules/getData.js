@@ -1,7 +1,5 @@
 export const main = document.querySelector('.container');
 
-let tasks = [];
-tasks;
 const getData = () => {
   tasks = JSON.parse(localStorage.getItem('datas')) ?? [];
   main.innerHTML = '';
