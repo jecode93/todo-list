@@ -21,7 +21,7 @@ const showTask = (i) => {
   const checkbox = document.createElement('input');
   const desc = document.createElement('input');
   checkbox.setAttribute('type', 'checkbox');
-  updateCompletedTask(tasks, desc, checkbox, i)
+  updateCompletedTask(tasks, desc, checkbox, i);
   desc.setAttribute('type', 'text');
   desc.setAttribute('id', `taskField-${i}`);
   desc.classList.add('taskField');
