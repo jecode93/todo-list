@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 export const main = document.querySelector('.container');
 
 const getData = () => {
