@@ -24,6 +24,7 @@ const showTask = (i) => {
     checkbox.removeAttribute('checked');
   } else {
     checkbox.setAttribute('checked', 'checked');
+    desc.style.textDecoration = 'line-through';
   }
   checkbox.addEventListener('change', () => {
     if (checkbox.checked) {
