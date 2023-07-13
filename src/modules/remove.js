@@ -18,4 +18,4 @@ const removeAllTask = () => {
   localStorage.setItem('datas', JSON.stringify(tasks));
 };
 
-export {removeTask, removeAllTask};
+export { removeTask, removeAllTask };

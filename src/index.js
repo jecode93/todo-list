@@ -1,8 +1,7 @@
-import add from './modules/addRemove';
-import { removeAllTask, removeTask } from './modules/remove';
+import add from './modules/addRemove.js';
+import { removeAllTask, removeTask } from './modules/remove.js';
 
 import './styles/style.css';
-
 
 let tasks = [];
 export const main = document.querySelector('.container');
@@ -17,7 +16,7 @@ const getData = () => {
 export default getData;
 const showTask = (i) => {
   const li = document.createElement('li');
-  li.classList.add('added')
+  li.classList.add('added');
   const checkbox = document.createElement('input');
   const desc = document.createElement('input');
   checkbox.setAttribute('type', 'checkbox');
@@ -46,7 +45,7 @@ const showTask = (i) => {
   li.appendChild(checkbox);
   li.appendChild(desc);
   const myIcon = document.createElement('span');
-  myIcon.innerHTML = `delete`;
+  myIcon.innerHTML = 'delete';
   myIcon.classList.add('material-symbols-rounded');
   myIcon.addEventListener('click', () => {
     removeTask(i);
@@ -54,21 +53,21 @@ const showTask = (i) => {
   });
   li.appendChild(myIcon);
   const more = document.createElement('span');
-  more.innerHTML = `more_vert`;
+  more.innerHTML = 'more_vert';
   more.classList.add('material-symbols-outlined');
-  li.appendChild(more); 
+  li.appendChild(more);
   return li;
 };
 
 function component() {
   const h1 = document.createElement('div');
-  h1.classList.add('header')
+  h1.classList.add('header');
   h1.innerHTML = '<h1>Today\'s To Do</h1>';
   h1.innerHTML += '<span class="material-symbols-outlined">sync</span>';
   main.appendChild(h1);
 
   const form = document.createElement('form');
-  form.classList.add('taskFormClass')
+  form.classList.add('taskFormClass');
   form.setAttribute('action', '#');
   form.setAttribute('id', 'taskForm');
   form.addEventListener('submit', () => {
@@ -81,9 +80,8 @@ function component() {
   addToTask.setAttribute('placeholder', 'Add to your list...');
   addToTask.setAttribute('id', 'newTask');
 
-
   const returnToSubmit = document.createElement('span');
-  returnToSubmit.innerHTML = `keyboard_return`;
+  returnToSubmit.innerHTML = 'keyboard_return';
   returnToSubmit.classList.add('material-symbols-outlined');
   returnToSubmit.classList.add('return');
 
