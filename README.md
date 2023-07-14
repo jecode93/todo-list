@@ -70,7 +70,7 @@ Example commands:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://cool-narwhal-ee0eab.netlify.app/)
+- [Live Demo Link](https://jecode93.github.io/todo-list/)
 
 
 ## 👥 Authors <a name="authors"></a>
